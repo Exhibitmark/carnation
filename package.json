@@ -2,7 +2,7 @@
   "name": "evr-package-dump",
   "version": "1.0.0",
   "description": "Dumping tool for packages",
-  "main": "main.js",
+  "main": "carnation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

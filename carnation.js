@@ -4,26 +4,26 @@ const { readManifest, readHeader, decompressManifest } = require('./manifest.js'
 
 if(!process.argv[2]){
     console.log("Package name missing")
-    console.log("USAGE\n node main.js <package name> <path to manifest> <path to package/s> <output path>")
+    console.log("USAGE\n node carnation.js <package name> <path to manifest> <path to package/s> <output path>")
     process.exit()
 } else if(!process.argv[3]){
     console.log("Manifest Path missing")
-    console.log("USAGE\n node main.js <package name> <path to manifest> <path to package/s> <output path>")
+    console.log("USAGE\n node carnation.js <package name> <path to manifest> <path to package/s> <output path>")
     process.exit()
 } else if(!process.argv[4]){
     console.log("Packages Path missing")
-    console.log("USAGE\n node main.js <package name> <path to manifest> <path to package/s> <output path>")
+    console.log("USAGE\n node carnation.js <package name> <path to manifest> <path to package/s> <output path>")
     process.exit()
 } else if(!process.argv[5]){
     console.log("Output Path missing")
-    console.log("USAGE\n node main.js <package name> <path to manifest> <path to package/s> <output path>")
+    console.log("USAGE\n node carnation.js <package name> <path to manifest> <path to package/s> <output path>")
     process.exit()
 }
 
 const packageName = process.argv[2]
-const manifestPath = process.argv[3]
-const packagesPath = process.argv[4]
-const outputPath = process.argv[5]
+const manifestPath = process.argv[3]+"\\"
+const packagesPath = process.argv[4]+"\\"
+const outputPath = process.argv[5]+"\\"
 
 let manifest = fs.readFileSync(`${manifestPath}\\${packageName}`)
 let package = packagesPath+`${packageName}_`

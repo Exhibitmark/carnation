@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compressor", "compressor.vcxproj", "{83A42A06-4D58-F716-B603-8AB3F87CC1FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB} = {3F716201-98A9-06E9-8C19-A006B99DE2CB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decompressor", "decompressor.vcxproj", "{E8EAFA09-9303-626A-3E7F-1E0344052B21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FB7BE00-8F95-2C82-4A54-29A652034946} = {9FB7BE00-8F95-2C82-4A54-29A652034946}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compress", "..\deps\compress.vcxproj", "{3F716201-98A9-06E9-8C19-A006B99DE2CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decompress", "..\deps\decompress.vcxproj", "{9FB7BE00-8F95-2C82-4A54-29A652034946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(EADev)", "..\EADev", "{B1F848AB-0130-00F6-58EA-A34F15B622E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(manifest_rebuilder)", "..\EADev\manifest_rebuilder", "{B3983332-ED97-D25E-D4BB-78A21A57BFE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\EADev\manifest_rebuilder\node_modules", "{6F671565-876F-45E1-5E11-61AED73F1C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(cppzst)", "..\EADev\manifest_rebuilder\node_modules\cppzst", "{AA5280DC-5F12-3722-4300-E57D527D0A2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(deps)", "..\EADev\manifest_rebuilder\node_modules\cppzst\deps", "{DFBF26CA-5C74-6CF4-EDE6-DCFB55D1BF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB}.Release|x64.ActiveCfg = Release|x64
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB}.Release|x64.Build.0 = Release|x64
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB}.Debug|x64.ActiveCfg = Debug|x64
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB}.Debug|x64.Build.0 = Debug|x64
+		{83A42A06-4D58-F716-B603-8AB3F87CC1FF}.Release|x64.ActiveCfg = Release|x64
+		{83A42A06-4D58-F716-B603-8AB3F87CC1FF}.Release|x64.Build.0 = Release|x64
+		{83A42A06-4D58-F716-B603-8AB3F87CC1FF}.Debug|x64.ActiveCfg = Debug|x64
+		{83A42A06-4D58-F716-B603-8AB3F87CC1FF}.Debug|x64.Build.0 = Debug|x64
+		{9FB7BE00-8F95-2C82-4A54-29A652034946}.Release|x64.ActiveCfg = Release|x64
+		{9FB7BE00-8F95-2C82-4A54-29A652034946}.Release|x64.Build.0 = Release|x64
+		{9FB7BE00-8F95-2C82-4A54-29A652034946}.Debug|x64.ActiveCfg = Debug|x64
+		{9FB7BE00-8F95-2C82-4A54-29A652034946}.Debug|x64.Build.0 = Debug|x64
+		{E8EAFA09-9303-626A-3E7F-1E0344052B21}.Release|x64.ActiveCfg = Release|x64
+		{E8EAFA09-9303-626A-3E7F-1E0344052B21}.Release|x64.Build.0 = Release|x64
+		{E8EAFA09-9303-626A-3E7F-1E0344052B21}.Debug|x64.ActiveCfg = Debug|x64
+		{E8EAFA09-9303-626A-3E7F-1E0344052B21}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3983332-ED97-D25E-D4BB-78A21A57BFE8} = {B1F848AB-0130-00F6-58EA-A34F15B622E0}
+		{6F671565-876F-45E1-5E11-61AED73F1C95} = {B3983332-ED97-D25E-D4BB-78A21A57BFE8}
+		{AA5280DC-5F12-3722-4300-E57D527D0A2F} = {6F671565-876F-45E1-5E11-61AED73F1C95}
+		{DFBF26CA-5C74-6CF4-EDE6-DCFB55D1BF71} = {AA5280DC-5F12-3722-4300-E57D527D0A2F}
+		{3F716201-98A9-06E9-8C19-A006B99DE2CB} = {DFBF26CA-5C74-6CF4-EDE6-DCFB55D1BF71}
+		{9FB7BE00-8F95-2C82-4A54-29A652034946} = {DFBF26CA-5C74-6CF4-EDE6-DCFB55D1BF71}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\compress">
+      <UniqueIdentifier>{ABF298C8-0A72-F718-7FD1-15EAFDF17A29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\compress">
+      <UniqueIdentifier>{ABF298C8-0A72-F718-7FD1-15EAFDF17A29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\compress">
+      <UniqueIdentifier>{ABF298C8-0A72-F718-7FD1-15EAFDF17A29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark">
+      <UniqueIdentifier>{961A624F-BA58-961F-177E-A5ED6C716764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm">
+      <UniqueIdentifier>{AFF1D634-CEB4-AB84-6F2B-67411B4ED438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions">
+      <UniqueIdentifier>{5046B952-1CAB-039C-D90D-60A29141CDC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node">
+      <UniqueIdentifier>{A49AD564-6B22-6A46-08E5-B5A7F4427839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1">
+      <UniqueIdentifier>{3E4FDBBA-3D3E-2E2D-7C7E-B69886AF8C1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin">
+      <UniqueIdentifier>{11CC0371-6539-7E04-3B24-030E187A74AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm">
+      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\common\stream_coder.cc">
+      <Filter>..\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\allocator.cc">
+      <Filter>..\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compress\compressor_index.cc">
+      <Filter>..\src\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compress\stream_compressor.cc">
+      <Filter>..\src\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compress\stream_compress_worker.cc">
+      <Filter>..\src\compress</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\Mark\.nvm\versions\node\v20.3.1\bin\node_modules\npm\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>
